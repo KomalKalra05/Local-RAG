@@ -131,7 +131,7 @@ class gemma:
         for i in l:
             #print(i)
             if i in finaloutput:
-                print("checked")
+                #print("checked")
                 
                 finaloutput = self.askGemma1(query)
                 break
